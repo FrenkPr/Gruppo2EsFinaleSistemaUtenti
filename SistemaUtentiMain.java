@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class SistemaUtentiMain {
-    try(Scanner scannerNum = new Scanner(System.in); Scanner scannerStr = new Scanner(System.in)){// creato gli scanner all'interno di un try with resources
+    public static void main(String[] args) {
+        try(Scanner scannerNum = new Scanner(System.in); Scanner scannerStr = new Scanner(System.in)){// creato gli scanner all'interno di un try with resources
         int codice; //valore del comando selezionato
         String continua = new String(); // stringa per continuare
         
@@ -36,6 +37,8 @@ public class SistemaUtentiMain {
     } catch (Exception e) {
         e.printStackTrace();
     }
+    }
+    
 }
 
 
