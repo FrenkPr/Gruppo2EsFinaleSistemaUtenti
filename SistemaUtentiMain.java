@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SistemaUtentiMain {
@@ -42,6 +43,7 @@ public class SistemaUtentiMain {
 }
 
 class GestoreUtenti{
+    ArrayList<Utenti> listaUtenti = new ArrayList<>();
     
 }
 
